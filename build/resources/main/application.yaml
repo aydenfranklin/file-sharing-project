@@ -1,0 +1,15 @@
+spring:
+    jpa:
+        show-sql: true
+        generate-ddl: false
+        database-platform: org.hibernate.dialect.MySQLDialect
+    datasource:
+        url: jdbc:mysql://localhost/demo1
+        username: ayden
+        password: 123456
+    data:
+        mongodb:
+            uri: mongodb://admin:123456@localhost:27017/demo1
+logging:
+    level:
+        com.macrame.demo.api: WARN
